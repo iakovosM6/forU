@@ -1,8 +1,8 @@
 <script>
-  let bg = document.getElementById('page-bg');
-  let isDark = document.documentElement.classList.contains('dark');
-
   function updateTheme() {
+    let isDark = document.documentElement.classList.contains('dark'); // Check if dark mode is active
+    let bg = document.getElementById('page-bg') || document.body; // Fallback to body if page-bg is missing
+
     if (isDark) {
       bg.style.backgroundColor = '#000000'; // Midnight Black
       bg.style.color = '#ffffff'; // White text for contrast
@@ -12,12 +12,15 @@
     }
   }
 
-  // Apply theme on page load
+  // Run on page load
   updateTheme();
 
-  // Listen for theme changes
+  // Listen for theme changes dynamically
   document.addEventListener('hbThemeChange', (e) => {
-    isDark = e.detail.isDarkTheme();
+    console.debug('Theme changed - isDarkTheme? ' + e.detail.isDarkTheme());
     updateTheme();
   });
+
+  // Also update when user manually toggles the theme (optional)
+  setInterval(updateTheme, 1000); // Check theme every second
 </script>
