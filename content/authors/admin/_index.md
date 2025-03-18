@@ -44,4 +44,4 @@ profiles:
     label: Download my resume
 ---
 
-Iakovos Makropoulos is a postdoctoral research assistant for the Response to Violence Against Women Mayors in the United States project funded by the Bloomberg Center at Harvard. Previously, he was Lecturer in Political Behaviour and Quantitative Methods at the University of Essex (fixed-term 2022-2023). His work has been published in international peer-reviewed journals such as the European Journal of Political Research, Party Politics, European Political Science Review, and the Journal of Election, Public Opinion and Parties.
+Iakovos Makropoulos is a Postdoctoral Research Assistant for the Response to Violence Against Women Mayors in the United States project funded by the Bloomberg Center at Harvard. Previously, Iakovos was Lecturer in Political Behaviour and Quantitative Methods at the University of Essex (fixed-term 2022-2023). His work has been published in international peer-reviewed journals such as the European Journal of Political Research, Party Politics, European Political Science Review, and the Journal of Election, Public Opinion and Parties.
