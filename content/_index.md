@@ -22,7 +22,7 @@ sections:
       # Need a custom icon?
       # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
       buttons:
-        - text: Read my latest paper on the gender gap in campaign financing! 
+        - text: Check out my latest paper on the gender gap in campaign financing published in EJPR (with Laura Sudulich and Siim Trumm)
           icon: academicons/google-scholar
           url: https://doi.org/10.1111/1475-6765.12741
        # - text: Watch my new YouTube video to achieve 20x productivity
